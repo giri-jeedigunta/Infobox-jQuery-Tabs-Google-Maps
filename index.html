@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Maps API V3: Custom Infowindow using Infobox</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Google Maps API V3: Custom Infowindow using Infobox" />
+    <meta name="keywords" content="Google Maps API V3, Custom Infowindow, Infobox, jQuery, jQuery tutorials, thewebstorebyg wordpress code blog" />
+    <meta name="author" content="Giri Jeedigunta" />
+    <link rel="stylesheet" href="jquery-ui-1.9.0.custom/css/ui-lightness/jquery-ui-1.9.0.custom.min.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 1000px;
+        overflow: hidden
+    }
+    
+    #map_canvas {
+        margin: 0 auto;
+        width: 100%;
+        height: 90%
+    }
+    
+    #tabs {
+        font-size: x-small;
+        width: 255px;
+        height: 150px
+    }
+    
+    #tabs .ui-tabs-nav {
+        height: 25px
+    }
+    
+    p {
+        font-size: x-small;
+        marign: 0;
+        padding: 0
+    }
+    </style>
+</head>
+
+<body>
+    <div id="map_canvas">&#160;</div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBw6r6EFekz3p32EHqi7n4o07F5Z2CTnf8"></script>
+    <script type="text/javascript" src="infobox.js"></script>
+    <script src="maps-with-infobox.js"></script>
+    <script>
+        initMap();
+    </script>
+    <!--
+      For detailed tutorial visit:
+      https://thewebstorebyg.wordpress.com/2012/10/24/google-maps-api-v3-tabs-inside-the-infowindow-using-infobox/
+
+      Author: Giri Jeedigunta
+      Last Edited: July 2017.
+      Visit: http://thewebstorebyg.wordpress.com/ for more tutorials. 
+
+      NOTE:
+      To use the Google Maps JavaScript API Versions 3.27 and above, you must generate your own API key and add a list of  domains you intend to use this API. More details – https://developers.google.com/maps/documentation/javascript/get-api-key
+    -->
+</body>
+
+</html>
